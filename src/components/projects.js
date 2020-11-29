@@ -35,8 +35,8 @@ class Projects extends Component {
             This app utilizes an API to populate random users and then create a directory.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Deployed</Button>
+              <Button href="https://github.com/Nasrah1/burgerapp">GitHub</Button>
+              <Button href="https://github.com/Nasrah1/burgerapp">Deployed</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
