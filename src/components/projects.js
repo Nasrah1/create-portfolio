@@ -15,13 +15,13 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/Eat-Da-Burger!.gif) center / cover'}} >Eat-Da-Burger</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/img/Eat-Da-Burger.gif) center / cover'}} >Eat-Da-Burger</CardTitle>
             <CardText>
             A Burger App that lets users input the names of burgers they’d like to eat.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Deployed</Button>
+              <Button href="https://github.com/Nasrah1/burgerapp">GitHub</Button>
+              <Button href="https://stormy-journey-23402.herokuapp.com/">Deployed</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -30,13 +30,13 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/Employee-Directory.gif) center / cover'}} >Employee Directory</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/../assets/img/Eat-Da-Burger.gif) center / cover'}} >Employee Directory</CardTitle>
             <CardText>
-            This app utilizes an API to populate random users and then create a directory.
+            This Employee app utilizes an API to populate random users and then create a directory.
             </CardText>
             <CardActions border>
-              <Button href="https://github.com/Nasrah1/burgerapp">GitHub</Button>
-              <Button href="https://github.com/Nasrah1/burgerapp">Deployed</Button>
+            <Button href="https://github.com/Nasrah1/employee-directory">GitHub</Button>
+            <Button href="https://arcane-temple-58442.herokuapp.com/">Deployed</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -45,15 +45,15 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(/Fitness-Tracker.gif) center / cover'}} >Fitness Tracker</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(../img/Fitness-Tracker.gif) center / cover'}} >Fitness Tracker</CardTitle>
             <CardText>
             Fitness tracker app that allows users to add and update their daily exercise workouts.
 
 
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Deployed</Button>
+            <Button href="https://github.com/Nasrah1/Workout-Tracker">GitHub</Button>
+            <Button href="https://intense-lowlands-57638.herokuapp.com/">Deployed</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -65,15 +65,155 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-        <div><h1>More Coming</h1></div>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./img/Eat-Da-Burger!.gif) center / cover'}} >Note Taker</CardTitle>
+          <CardText>
+          In this application you'll find a db.json file on the backend that will be used to store and retrieve notes using the fs module.
+          </CardText>
+          <CardActions border>
+            <Button href="https://github.com/Nasrah1/Nasrah1.github.io/tree/master/NOTE-TAKER">GitHub</Button>
+            <Button href="https://stormy-reef-22729.herokuapp.com/">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(/Employee-Directory.gif) center / cover'}} >Budget Tracker</CardTitle>
+          <CardText>
+          Budget Tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection.
+          </CardText>
+          <CardActions border>
+          <Button href="https://github.com/Nasrah1/Budget-Tracker">GitHub</Button>
+          <Button href="https://afternoon-meadow-52752.herokuapp.com/">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(../img/Fitness-Tracker.gif) center / cover'}} >First Portfolio</CardTitle>
+          <CardText>
+          This is my portfolio that includes my about, previous projects/homework and my my most current resume and contact info.
+
+
+          </CardText>
+          <CardActions border>
+          <Button href="https://github.com/Nasrah1/Updated-Portfolio">GitHub</Button>
+          <Button href="https://nasrah1.github.io/Updated-Portfolio/">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>More Coming</h1></div>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./img/Eat-Da-Burger!.gif) center / cover'}} ></CardTitle>
+          <CardText>
+          More Coming..
+          </CardText>
+          <CardActions border>
+            <Button href="https://github.com/Nasrah1/Budget-Tracker">GitHub</Button>
+            <Button href="https://afternoon-meadow-52752.herokuapp.com/">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(/Employee-Directory.gif) center / cover'}} ></CardTitle>
+          <CardText>
+          More Coming..
+          </CardText>
+          <CardActions border>
+          <Button href="https://github.com/Nasrah1/Updated-Portfolio">GitHub</Button>
+          <Button href="https://nasrah1.github.io/Updated-Portfolio/">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(../img/Fitness-Tracker.gif) center / cover'}} ></CardTitle>
+          <CardText>
+          More Coming..
+
+
+          </CardText>
+          <CardActions border>
+          <Button href="">GitHub</Button>
+          <Button href="">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>More Coming</h1></div>
+        <div className="projects-grid">
+        {/* Project 1 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./img/Eat-Da-Burger!.gif) center / cover'}} ></CardTitle>
+          <CardText>More Coming
+          </CardText>
+          <CardActions border>
+            <Button href="">GitHub</Button>
+            <Button href="">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(/Employee-Directory.gif) center / cover'}} ></CardTitle>
+          <CardText>
+          More Coming
+          </CardText>
+          <CardActions border>
+          <Button href="">GitHub</Button>
+          <Button href="">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 3 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '176px', background: 'url(../img/Fitness-Tracker.gif) center / cover'}} ></CardTitle>
+          <CardText>
+          More Coming
+
+
+          </CardText>
+          <CardActions border>
+          <Button href="https://github.com/Nasrah1/Workout-Tracker">GitHub</Button>
+          <Button href="https://intense-lowlands-57638.herokuapp.com/">Deployed</Button>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+      </div>
       )
     }
 
@@ -85,10 +225,10 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>HTML</Tab>
-          <Tab>CSS</Tab>
-          <Tab>Javascript</Tab>
-          <Tab>React</Tab>
+          <Tab>Project</Tab>
+          <Tab>Project</Tab>
+          <Tab>Project</Tab>
+          <Tab>Project</Tab>
         </Tabs>
 
 

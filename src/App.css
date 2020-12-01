@@ -16,7 +16,7 @@ background: linear-gradient(to right, #07060f, #574d7c); /* W3C, IE 10+/ Edge, F
   text-align: center;
   overflow: hidden;
 }
-.headshot-img {
+.img-responsive {
   height: 250px;
   padding-top: 5em;
 }
