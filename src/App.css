@@ -10,7 +10,7 @@ background: linear-gradient(to right, #07060f, #574d7c); /* W3C, IE 10+/ Edge, F
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #c2bcbf url(./img/Calm.jpg) no-repeat top center;
+  background: #c2bcbf url(./assets/img/Calm.jpg) no-repeat top center;
   background-size: cover !important;
  -webkit-background-size: cover !important;
   text-align: center;
@@ -52,9 +52,12 @@ border-radius: 10px;
 
 /* Resume Page css */
 .resume-right-col {
-  background: #0f0e0f;
+  background-color: #707471;
   color: white;
-  padding: 2em;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* contact page css */
@@ -116,10 +119,19 @@ border-radius: 10px;
   margin: 24px 0;
   padding: 0;
   font-size: 30px;
+  color: white;
 }
 
 .social-links i {
   display: inline-block;
   margin: 0 15px;
   padding: 0;
+}
+
+.footer-style {
+  background-color: #101018f8;
+  color: #fff;
+  font-size: 1.5em;
+  border: 2px solid #101018f8;
+  border-top-left-radius: 3px;
 }
