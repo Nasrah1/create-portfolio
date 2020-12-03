@@ -10,7 +10,7 @@ background: linear-gradient(to right, #07060f, #574d7c); /* W3C, IE 10+/ Edge, F
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #c2bcbf url(./assets/img/Calm.jpg) no-repeat top center;
+  background: #111011; 
   background-size: cover !important;
  -webkit-background-size: cover !important;
   text-align: center;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Skills from './skills';
-import PDF from '../assets/img/resume.pdf';
+
 
 
 
@@ -33,7 +33,7 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
           <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Grab My Resume</h2>
-              <p><strong><a href={PDF} target="_blank" rel="noopener noreferrer">Resume <i className="fas fa-file"></i></a></strong></p>
+              <p><strong><a href={`${process.env.PUBLIC_URL}/assets/img/resume.pdf`} target="_blank" rel="noopener noreferrer">Resume <i className="fas fa-file"></i></a></strong></p>
 
           </Cell>
         </Grid>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import image from '../assets/img/me.png';
+
 
 class Header extends Component {
     render() {
@@ -8,7 +8,7 @@ class Header extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                 <Cell col={12}> 
-                     <img src={image} className="img-responsive" alt="nasra headshot" id="nasra"></img>
+                     <img src={`${process.env.PUBLIC_URL}/assets/img/me.png`} className="img-responsive" alt="nasra headshot" id="nasra"></img>
                     <div className="banner-text">
                         <h1>Hi, I'm Nasra Hassan.</h1>
                         <h2> Full Stack Web Developer</h2>

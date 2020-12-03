@@ -15,7 +15,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://image.shutterstock.com/image-vector/vector-illustration-hamburger-cheese-tomato-260nw-696505483.jpg'}} >Eat-Da-Burger</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: `url(${process.env.PUBLIC_URL}/assets/img/Eat-Da-Burger.gif`}} >Eat-Da-Burger</CardTitle>
             <CardText>
             A Burger App that lets users input the names of burgers they’d like to eat.
             </CardText>
